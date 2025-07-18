@@ -47,8 +47,9 @@ after logging in as nathan we can accesses nathan homedirectory and acess the fi
 
 ## Task 8
 What is the full path to the binary on this machine that can be abused to obtain root privileges?
+
 /usr/bin/python3.8
-using the command getcap -r / 2>/dev/null we get the posix capabilities of binaries on this machine
+using the command `getcap -r / 2>/dev/null` we get the posix capabilities of binaries on this machine
 
 ## Task 9 
 Submit the flag located in root’s home directory.
