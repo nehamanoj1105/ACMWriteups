@@ -55,3 +55,14 @@ using the command `getcap -r / 2>/dev/null` we get the posix capabilities of bin
 Submit the flag located in root’s home directory.
 
 after logging in as root we view the root.txt file which conatins the final flag
+
+
+
+
+## Submission Guidelines:
+### Recon strategy: What information did you gather initially?
+A: initially we found out how many ports were open, we could also see the hosted web application and see the packets captured and we were also able to download the .pcap files
+### Exploitation method: How did you gain access or escalate privileges?
+A: after changing the url multiple times we cn figure out wich .pcap file held the sensitive data and from here we can find the necessary passwords for further privilege esclation
+### Steps to retrieve the flag: Exact method and location of the flag.
+A: After logging in as nathan and gainig root privilege we can access the file root.txt and access the password which was held in it
